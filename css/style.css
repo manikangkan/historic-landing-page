@@ -294,4 +294,13 @@ body {
   padding: 0 6rem;
   background: #e6b783;
 }
+
+.mandal-overlay {
+  position: absolute;
+  width: 66rem;
+  top: -36rem;
+  left: 16rem;
+  opacity: 0.1;
+  z-index: -1;
+}
 /*# sourceMappingURL=style.css.map */
