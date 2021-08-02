@@ -1,0 +1,297 @@
+.df {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.nav {
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav > div {
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.nav-link ul {
+  width: 80%;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-icon-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.nav-icon-link img {
+  width: 1.2rem;
+  height: 1.2rem;
+  padding: 1rem 1.6rem;
+  cursor: pointer;
+}
+
+.nav-icon-link img:last-child {
+  background: #d49858;
+  border-radius: 100%;
+  padding: 1rem 1rem;
+}
+
+.df {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.main {
+  height: 56vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main > div {
+  height: 100%;
+}
+
+.left {
+  width: 36%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.left h1,
+.left span {
+  margin-left: -0.2rem;
+}
+
+.left h1 {
+  font-size: 2.6rem;
+  opacity: 0.4;
+}
+
+.left span {
+  font-size: 6rem;
+  line-height: 6rem;
+}
+
+.left p {
+  padding-top: 1rem;
+  border-top: 1px solid #d49858;
+  font-size: 0.8rem;
+}
+
+.left .button {
+  background: #d49858;
+  font-weight: 500;
+  border-radius: 0.2rem;
+  width: 40%;
+  height: 10%;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left .button:hover {
+  background: #d08e48;
+}
+
+.right {
+  width: 56%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.right > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.2rem;
+}
+
+.right .big {
+  background: #d49858;
+  margin-right: 0.4rem;
+}
+
+.right .small {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.4rem;
+}
+
+.right .small div {
+  background: #d49858;
+  border-radius: 0.2rem;
+}
+
+.footer {
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer h1 {
+  opacity: 0.4;
+}
+
+.footer h1:last-child {
+  margin-left: 42.4rem;
+  opacity: initial;
+  position: relative;
+}
+
+.footer h1:last-child::before {
+  content: "";
+  position: absolute;
+  background: #d49858;
+  height: 0.1rem;
+  width: 40rem;
+  -webkit-transform: translate(-41.2rem, 1.5rem);
+          transform: translate(-41.2rem, 1.5rem);
+}
+
+.footer h1:last-child::after {
+  content: "";
+  position: absolute;
+  background: #d49858;
+  height: 0.1rem;
+  background: #604500;
+  -webkit-transform: translate(-38rem, 1.5rem);
+          transform: translate(-38rem, 1.5rem);
+  height: 0.2rem;
+  width: 6rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  color: #604500;
+}
+
+body {
+  padding: 0 6rem;
+  background: #e6b783;
+}
+/*# sourceMappingURL=style.css.map */

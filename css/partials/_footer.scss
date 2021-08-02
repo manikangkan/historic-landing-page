@@ -1,0 +1,27 @@
+.footer {
+  height: 20vh;
+  @include df {
+    justify-content: flex-end;
+  }
+  h1 {
+    opacity: 0.4;
+
+    &:last-child {
+      margin-left: 42.4rem;
+      opacity: initial;
+      position: relative;
+      &::before {
+        @include ba;
+        width: 40rem;
+        transform: translate(-41.2rem, 1.5rem);
+      }
+      &::after {
+        @include ba;
+        background: $dark-color;
+        transform: translate(-38rem, 1.5rem);
+        height: 0.2rem;
+        width: 6rem;
+      }
+    }
+  }
+}

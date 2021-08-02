@@ -1,0 +1,49 @@
+@import "mixin";
+@import "colors";
+
+.nav {
+  height: 20vh;
+  @include df;
+
+  > div {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.logo {
+  @include df {
+    justify-content: start;
+  }
+}
+
+.nav-link {
+  @include df {
+    justify-content: start;
+  }
+  ul {
+    width: 80%;
+    list-style-type: none;
+    @include df {
+      justify-content: space-between;
+    }
+  }
+}
+
+.nav-icon-link {
+  @include df {
+    justify-content: flex-end;
+  }
+  img {
+    width: 1.2rem;
+    height: 1.2rem;
+    padding: 1rem 1.6rem;
+    cursor: pointer;
+
+    &:last-child {
+      background: $secondary-color;
+      border-radius: 100%;
+      padding: 1rem 1rem;
+    }
+  }
+}
